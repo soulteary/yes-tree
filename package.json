@@ -1,0 +1,22 @@
+{
+  "name": "yes-tree",
+  "version": "1.0.0",
+  "description": "Tree, nodejs ver.",
+  "main": "tree.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soulteary/yes-tree.git"
+  },
+  "keywords": [
+    "tree"
+  ],
+  "author": "soulteary <soulteary@qq.com> (http://soulteary.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soulteary/yes-tree/issues"
+  },
+  "homepage": "https://github.com/soulteary/yes-tree"
+}
