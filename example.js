@@ -62,8 +62,8 @@ projectTree = tree({
         cwd     : process.env.PWD,
         depth   : 3,
         exclude : {
-            path       : ['.git', '.idea', 'node_modules'],
-            mode       : 'all'
+            path : ['.git', '.idea', 'node_modules'],
+            mode : 'all'
         },
         json    : false
     }
@@ -78,7 +78,7 @@ projectTree = tree({
         cwd     : process.env.PWD,
         depth   : 1,
         exclude : {
-            mode       : 'all'
+            mode : 'all'
         },
         json    : false
     }
@@ -94,7 +94,7 @@ projectTree = tree({
         cwd     : process.env.PWD,
         depth   : 1,
         exclude : {
-            mode       : 'children'
+            mode : 'children'
         },
         json    : false
     }
@@ -106,9 +106,9 @@ console.log(projectTree);
  * 输出JSON
  */
 projectTree = tree({
-        cwd     : process.env.PWD,
-        depth   : 1,
-        json    : true
+        cwd   : process.env.PWD,
+        depth : 1,
+        json  : true
     }
 );
 
