@@ -64,13 +64,11 @@ function tree(rootDir, exclude, maxDepth, needJson) {
             if (exclude &&
                 exclude.extensions &&
                 exclude.extensions.length &&
-                exclude.extensions.indexOf(path.extname(name).toLowerCase()) === -1) {
-
+                exclude.extensions.indexOf(path.extname(name).toLowerCase()) > -1) {
+                return null;
+            } else {
                 item.type = 'file';
                 item.size = stats.size;
-
-            } else {
-                return null;
             }
         } else if (stats.isDirectory()) {
 
