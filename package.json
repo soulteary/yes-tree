@@ -1,8 +1,11 @@
 {
   "name": "yes-tree",
   "version": "1.0.3",
-  "description": "Tree, nodejs ver.",
+  "description": "Tree Node.js version.",
   "main": "index.js",
+  "bin": {
+    "tree": "bin/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
